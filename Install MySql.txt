@@ -1,0 +1,34 @@
+Install MySQL through shell script
+----------------------------------
+
+steps:
+------
+1. check user is root or not
+2. if root -- if id is not equal to 0, then it is not root user 
+      --OR-- check with whoami
+	 proceed
+   if not root
+	 stop and say run with root access
+3. now install mysql
+4. check installed properly.
+5. if success
+	 then good
+   not success
+      show what is the error
+
+100 statements
+10th line --> error
+
+1. stop, clear the error and proceed
+2. dont worry about error, proceed
+
+shell script wont stop if it faces error,
+
+it is our responsibility to check and proceed
+
+EXIT status
+-----------
+previous command success or not
+
+$? --> if success, it has 0
+if failure, not zero
